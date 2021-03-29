@@ -42,23 +42,23 @@ header .col-7 li a::after {
   background-color: transparent;
 }
 header .item_left li:hover a {
-  color: tomato;
+  color: #fca400;
 }
 header .item_left li:hover a::after {
-  background-color: tomato;
+  background-color: #fca400;
 }
 header .item_right .item1 a {
   color: #fec8da;
 }
 header ul .item1:hover {
-  color: firebrick;
-  box-shadow: 0 0 3px firebrick;
+  color: #fca400;
+  box-shadow: 0 0 3px #fca400;
 }
 header .item_right {
   justify-content: flex-end;
 }
 header .item_right .item1 {
-  background-color: firebrick;
+  background-color: #fca400;
   border-radius: 20px;
   margin-right: 5px;
 }
@@ -80,7 +80,7 @@ header .item_right .item2 {
   transition: all 0.3s;
 }
 header .item_right .item2:hover {
-  background-color: firebrick;
+  background-color: #fca400;
 }
 header .item_right .item2:hover a {
   color: white;
@@ -94,7 +94,7 @@ header .item_right .item3:hover i {
 @media screen and (max-width: 991px) {
   header .item_left .nav-item:hover .nav-link {
     border-bottom: none;
-    color: tomato;
+    color: #fca400;
   }
   header .item_right .item1 {
     background-color: white;
@@ -111,7 +111,7 @@ header .item_right .item3:hover i {
     border: none;
   }
   header .item_right .item1 .nav-link:hover span {
-    color: tomato;
+    color: #fca400;
   }
   header .item_right .item1 .nav-link span {
     color: black;
