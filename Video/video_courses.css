@@ -67,7 +67,9 @@ p,a,button{
   opacity: 1;
 }
 #video_courses .right .content-item{
-  border-right: 1px solid gray;
+  border: 1px solid #bebebe;
+  border-right: none;
+  border-top: none;
 }
 #video_courses .right .content-item .item1 .text{
   display: flex;
@@ -82,15 +84,19 @@ p,a,button{
   font-size: 2rem;
   margin-right: 10px;
 }
-#video_courses .right .content-item .item1.text .textP p{
+#video_courses .right .content-item .item1 .text .textP p{
   margin-bottom: 0px;
+  font-weight: 600;
+}
+#video_courses .right .content-item .item1 .textP p:nth-child(2){
+ font-weight: 500;
 }
 #video_courses .right .content-item .item1{
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-  box-shadow: 0 2px 5px rgb(0 0 0 / 20%);
+  box-shadow: 0 1px 8px rgb(89 120 150 / 20%);
   padding-right: 20px;
 }
 .col-lg-8,.col-lg-4{
@@ -129,9 +135,13 @@ height: 500px;
   display: block;
   border-radius: 0%;
   text-align: left;
-  border-bottom: 1px solid grey;
-  border-top: 1px solid grey;
+  border: 1px solid #bebebe;
+  border: 1px solid #bebebe;
   font-size: 0.9rem;
+  font-weight: 550;
+}
+#video_courses .right .item2 .btn p{
+  font-weight: 500;
 }
 #video_courses .right .item2 .btn i{
   margin-left: 25%;
