@@ -76,13 +76,16 @@ p,a,button{
   align-items: center;
   justify-content: center;
   padding-left: 10px;
+  color:  #334d6e;
 }
 #video_courses p{
   margin-bottom: 0px;
+  color:  #334d6e;
 }
 #video_courses .right .item1 .text i{
   font-size: 2rem;
   margin-right: 10px;
+  color:  #334d6e;
 }
 #video_courses .right .content-item .item1 .text .textP p{
   margin-bottom: 0px;
@@ -90,6 +93,7 @@ p,a,button{
 }
 #video_courses .right .content-item .item1 .textP p:nth-child(2){
  font-weight: 500;
+ color:  #334d6e;
 }
 #video_courses .right .content-item .item1{
   display: flex;
@@ -142,6 +146,7 @@ height: 500px;
 }
 #video_courses .right .item2 .btn p{
   font-weight: 500;
+  color:  #334d6e;
 }
 #video_courses .right .item2 .btn i{
   margin-left: 25%;
@@ -154,6 +159,7 @@ height: 500px;
 }
 #video_courses .right .item2 .collapse a p{
   padding: 10px 0;
+  color:  #334d6e;
 }
 #video_courses .right .item2 .collapse a:hover p{
   background: #ffe6ee;
