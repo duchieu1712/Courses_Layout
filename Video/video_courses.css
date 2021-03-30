@@ -53,14 +53,16 @@ p,a,button{
 }
 #video_courses .left .img{
   position: relative;
+  margin: auto;
 }
 #video_courses .left .content-item .img i{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  font-size: 3.5rem;
-  opacity: 0.8;
+  font-size: 4.5rem;
+  opacity: 0.6;
+  color: black;
 }
 #video_courses .left .content-item .img:hover i{
   color: red;
@@ -90,6 +92,7 @@ p,a,button{
 #video_courses .right .content-item .item1 .text .textP p{
   margin-bottom: 0px;
   font-weight: 600;
+  opacity: 0.9;
 }
 #video_courses .right .content-item .item1 .textP p:nth-child(2){
  font-weight: 500;
@@ -143,6 +146,7 @@ height: 500px;
   border: 1px solid #bebebe;
   font-size: 0.9rem;
   font-weight: 550;
+  opacity: 0.8;
 }
 #video_courses .right .item2 .btn p{
   font-weight: 500;
