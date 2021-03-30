@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: #334d6e;
+    font-family: "Roboto", sans-serif;
+}
+.setting .content {
+    display: flex;
+    justify-content: space-between;
+}
+.setting .avatar img {
+    width: 100px;
+}
+.setting .content a{
+    color: #334d6e;
+    text-decoration: none;
+    transition: all .3s;
+}
+.setting .content a:hover{
+    color: #fca400;
+}
+.setting .content{
+    border-bottom: 1px solid grey;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.setting .username .item p{
+    margin-top: 20px;
+}
+.setting .information table{
+    width: 700px;
+    height: 300px;
+}
+.setting .password table{
+    width: 300px;
+    height: 100px;
+}
