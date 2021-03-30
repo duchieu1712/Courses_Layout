@@ -80,7 +80,20 @@ body {
 .registeredCourses .card-body p{
     font-size: 12px;
     font-weight: 300;
+    margin-top: 5px;
 }
+.registeredCourses .card-body .percent{
+    width: 100%;
+    height: 3px;
+    background-color: #e9ecef;
+    border-radius: 5px;
+}
+.registeredCourses .card-body .learned {
+    background-color: #fca400;
+    height: 3px;
+    border-radius: 5px;
+}
+
 .registeredCourses .card-foot p{
     align-items: center;
     margin-bottom: 0;
