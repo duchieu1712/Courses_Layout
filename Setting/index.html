@@ -1,151 +1,197 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Thông tin tài khoản</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
-        crossorigin="anonymous" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./setting.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./setting.css" />
+  </head>
 
-<body>
+  <body>
     <section class="setting">
-        <div class="container">
-            <h4>Thông tin tài khoản</h4>
-            <div class="avatar content ">
-                <div class="item">
-                    <h5>Ảnh đại diện</h5>
-                    <img id="ava" class="img-fluid " src="../img/user.png" alt="">
-                    <div id="custom-ava">
-                        <p>Chọn ảnh từ máy tính <span><button class="ml-5">Chọn tệp</button></span></p>
-                        <button class="update-custom">Cập nhật</button>
-                    </div>
-                </div>
-                <div class="edit">
-                    <button href="" id="setting-avatar"><i class="fa fa-pencil-alt"></i>Chỉnh sửa</button>
-                </div>
+      <div class="container">
+        <h4>Thông tin tài khoản</h4>
+        <div class="avatar content">
+          <div class="item">
+            <h5>Ảnh đại diện</h5>
+            <img id="ava" class="img-fluid" src="../img/user.png" alt="" />
+            <div id="custom-ava">
+              <p>
+                Chọn ảnh từ máy tính
+                <span><button class="ml-5">Chọn tệp</button></span>
+              </p>
+              <button class="update-custom">Cập nhật</button>
             </div>
-            <div class="username content">
-                <div class="item">
-                    <h5>Tên hiển thị</h5>
-                    <p id="username">Mã Hy Phúc
-                    </p>
-                    <div id="custom-name">
-                        <input type="text" class="form-control">
-                        <button class="update-custom">Cập nhật</button>
-                    </div>
-
-                </div>
-                <div class="edit">
-                    <button href="" id="setting-name"><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
-                </div>
+          </div>
+          <div class="edit">
+            <button href="" id="setting-avatar">
+              <i class="fa fa-pencil-alt"></i>Chỉnh sửa
+            </button>
+          </div>
+        </div>
+        <div class="username content">
+          <div class="item">
+            <h5>Tên hiển thị</h5>
+            <p id="username">Mã Hy Phúc</p>
+            <div id="custom-name">
+              <input type="text" class="form-control" />
+              <button class="update-custom">Cập nhật</button>
             </div>
-            <div class="information content">
-                <div class="item">
-                    <h5>Thông tin tài khoản</h5>
-                    <table id="info">
-                        <tbody>
-                            <tr>
-                                <td>Họ tên</td>
-                                <td>Mã Hy Phúc</td>
-                            </tr>
-                            <tr>
-                                <td>Ngày sinh</td>
-                                <td>00/00/00</td>
-                            </tr>
-                            <tr>
-                                <td>Giới tính</td>
-                                <td>Nam</td>
-                            </tr>
-                            <tr>
-                                <td>Địa chỉ</td>
-                                <td>ck</td>
-                            </tr>
-                            <tr>
-                                <td>Email</td>
-                                <td>mahyphuc.davinci@gmail.com</td>
-                            </tr>
-                            <tr>
-                                <td>Điện thoại</td>
-                                <td>0798209819</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    <div id="custom-info">
-                        <table>
-                            <tbody>
-                                <tr>
-                                    <td>Họ tên</td>
-                                    <input class="form-control" type="text">
-                                </tr>
-                                <tr>
-                                    <td>Ngày sinh</td>
-                                    <input class="form-control" type="text">
-                                </tr>
-                                <tr>
-                                    <td>Giới tính</td>
-                                    <input class="form-control" type="text">
-                                </tr>
-                                <tr>
-                                    <td>Địa chỉ</td>
-                                    <input class="form-control" type="text">
-                                </tr>
-                                <tr>
-                                    <td>Email</td>
-                                    <input class="form-control" type="text">
-                                </tr>
-                                <tr>
-                                    <td>Điện thoại</td>
-                                    <input class="form-control" type="text">
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="edit">
-                    <button href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
-                </div>
-            </div>
-            <div class="password content">
-                <div class="item">
-                    <h5>Mật khẩu</h5>
+          </div>
+          <div class="edit">
+            <button href="" id="setting-name">
+              <i class="fa fa-pencil-alt"></i> chỉnh sửa
+            </button>
+          </div>
+        </div>
+        <div class="information content">
+          <div class="item">
+            <h5>Thông tin tài khoản</h5>
+            <table style="width: 500px;height: 300px;" id="info">
+              <tbody>
+                <tr>
+                  <td>Họ tên</td>
+                  <td>Mã Hy Phúc</td>
+                </tr>
+                <tr>
+                  <td>Ngày sinh</td>
+                  <td>00/00/00</td>
+                </tr>
+                <tr>
+                  <td>Giới tính</td>
+                  <td>Nam</td>
+                </tr>
+                <tr>
+                  <td>Địa chỉ</td>
+                  <td>ck</td>
+                </tr>
+                <tr>
+                  <td>Email</td>
+                  <td>mahyphuc.davinci@gmail.com</td>
+                </tr>
+                <tr>
+                  <td>Điện thoại</td>
+                  <td>0798209819</td>
+                </tr>
+              </tbody>
+            </table>
+            <div id="custom-info">
                     <table>
                         <tbody>
-                            <tr>
-                                <td>Mật khẩu hiện tại</td>
-                                <td>************</td>
-                            </tr>
+                          <tr>
+                            <td>Họ tên</td>
+                            <td><input class="form-control" type="text" /></td>
+                            
+                          </tr>
+                          <tr>
+                            <td>Ngày sinh</td>
+                            <td><input class="form-control" type="text" /></td>
+                          </tr>
+                          <tr>
+                            <td>Giới tính</td>
+                          <td><input class="form-control" type="text" /></td>
+                          </tr>
+                          <tr>
+                            <td>Địa chỉ</td>
+                          <td><input class="form-control" type="text" /></td>
+                          </tr>
+                          <tr>
+                            <td>Email</td>
+                          <td><input class="form-control" type="text" /></td>
+                          </tr>
+                          <tr>
+                            <td>Điện thoại</td>
+                          <td><input class="form-control" type="text" /></td>
+                          </tr>
                         </tbody>
-                    </table>
-                </div>
-                <div class="edit">
-                    <button href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
-                </div>
+                      </table>
+                      <button class="update-custom">Cập nhật</button>
+             
             </div>
+          </div>
+          <div class="edit">
+            <button id="setting-info" href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
+          </div>
         </div>
+        <div class="password content">
+          <div  class="item">
+            <h5>Mật khẩu</h5>
+            <table id="pass-current">
+              <tbody>
+                <tr>
+                  <td>Mật khẩu hiện tại</td>
+                  <td>************</td>
+                </tr>
+              </tbody>
+            </table>
+            <div id="pass">
+                <table>
+                    <tbody>
+                      <tr>
+                        <td>Mật khẩu cũ</td>
+                        <td><input class="form-control" type="text" /></td>
+                        
+                      </tr>
+                      <tr>
+                        <td>Mật khẩu mới</td>
+                        <td><input class="form-control" type="text" /></td>
+                      </tr>
+                      <tr>
+                        <td>Nhập lại mật khẩu</td>
+                      <td><input class="form-control" type="text" /></td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+                  <button class="update-custom">Cập nhật</button>
+            </div>
+          </div>
+          <div class="edit">
+            <button id="edit" href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <script src="./custom.js"></script>
-</body>
-
+  </body>
 </html>

@@ -56,10 +56,29 @@ body {
     margin-top: 20px;
 }
 .setting .information table{
-    width: 700px;
-    height: 300px;
+    /* width: 500px;
+    height: 300px; */
 }
+.information #custom-info table{
+   width: 700px;
+   height: 300px;
+}
+
 .setting .password table{
     width: 300px;
     height: 100px;
+}
+.setting #pass table{
+    width: 700px;
+    height: 200px;
+}
+@media screen and (max-width:768px){
+    .information #custom-info table{
+        width: 500px;
+        height: 300px;
+     }
+    .setting #pass table{
+        width: 500px;
+        height: 200px;
+    }
 }
