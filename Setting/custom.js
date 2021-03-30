@@ -23,15 +23,16 @@ setting_name.addEventListener('click', function () {
     isSet ? username.style.display = "none" : username.style.display = "block";
 });
 
+var isSet3 = false
 var inFo = document.getElementById("info");
 var custom_info = document.getElementById("custom-info");
 custom_info.style.display = "none";
 var setting_info = document.getElementById("setting-info");
 setting_info.addEventListener('click', function () {
-    isSet1 = !isSet1;
-    isSet1 ? custom_info.style.display = "block" : custom_info.style.display = "none";
+    isSet3 = !isSet3;
+    isSet3 ? custom_info.style.display = "block" : custom_info.style.display = "none";
     console.log(isSet);
-    isSet1 ? inFo.style.display = "none" : inFo.style.display = "table";
+    isSet3 ? inFo.style.display = "none" : inFo.style.display = "table";
 });
 
 var isSet2 = false;
