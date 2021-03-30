@@ -25,34 +25,35 @@
             <div class="avatar content ">
                 <div class="item">
                     <h5>Ảnh đại diện</h5>
-                    <img  class="img-fluid " src="../img/user.png" alt="">
+                    <img id="ava" class="img-fluid " src="../img/user.png" alt="">
+                    <div id="custom-ava">
+                        <p>Chọn ảnh từ máy tính <span><button class="ml-5">Chọn tệp</button></span></p>
+                        <button class="update-custom">Cập nhật</button>
+                    </div>
                 </div>
                 <div class="edit">
-                    <button href="" id="setting-avatar"><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
-                </div>
-               
-            </div>
-            <div id="custom-ava">
-                <span>Chọn ảnh từ máy tính</span>
-                <div class="item1">
-                    <button>Chọn tệp</button>
-                    <button>Cập nhập</button>
+                    <button href="" id="setting-avatar"><i class="fa fa-pencil-alt"></i>Chỉnh sửa</button>
                 </div>
             </div>
             <div class="username content">
                 <div class="item">
                     <h5>Tên hiển thị</h5>
-                    <p>Mã Hy Phúc
+                    <p id="username">Mã Hy Phúc
                     </p>
+                    <div id="custom-name">
+                        <input type="text" class="form-control">
+                        <button class="update-custom">Cập nhật</button>
+                    </div>
+
                 </div>
                 <div class="edit">
-                    <a href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</a>
+                    <button href="" id="setting-name"><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
                 </div>
             </div>
             <div class="information content">
                 <div class="item">
                     <h5>Thông tin tài khoản</h5>
-                    <table>
+                    <table id="info">
                         <tbody>
                             <tr>
                                 <td>Họ tên</td>
@@ -80,9 +81,39 @@
                             </tr>
                         </tbody>
                     </table>
+                    <div id="custom-info">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td>Họ tên</td>
+                                    <input class="form-control" type="text">
+                                </tr>
+                                <tr>
+                                    <td>Ngày sinh</td>
+                                    <input class="form-control" type="text">
+                                </tr>
+                                <tr>
+                                    <td>Giới tính</td>
+                                    <input class="form-control" type="text">
+                                </tr>
+                                <tr>
+                                    <td>Địa chỉ</td>
+                                    <input class="form-control" type="text">
+                                </tr>
+                                <tr>
+                                    <td>Email</td>
+                                    <input class="form-control" type="text">
+                                </tr>
+                                <tr>
+                                    <td>Điện thoại</td>
+                                    <input class="form-control" type="text">
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
                 <div class="edit">
-                    <a href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</a>
+                    <button href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
                 </div>
             </div>
             <div class="password content">
@@ -98,7 +129,7 @@
                     </table>
                 </div>
                 <div class="edit">
-                    <a href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</a>
+                    <button href=""><i class="fa fa-pencil-alt"></i> Chỉnh sửa</button>
                 </div>
             </div>
         </div>

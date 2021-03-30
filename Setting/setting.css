@@ -10,18 +10,41 @@ body {
     font-family: "Roboto", sans-serif;
 }
 .setting .content {
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
 }
 .setting .avatar img {
     width: 100px;
 }
-.setting .content a{
+.setting .content button{
     color: #334d6e;
-    text-decoration: none;
+    border: none;
+    outline: none;
+    background-color: transparent;
     transition: all .3s;
 }
-.setting .content a:hover{
+.setting .container .update-custom{
+    margin-top: 10px;
+    margin-left: 30%;
+    outline: none;
+    border: 1px solid #fca400;
+    background: #fca400;
+    color: #fff;
+    border-radius: 6px;
+    padding: 5px 15px;
+}
+.setting .container .update-custom:hover {
+    color: #fff;
+}
+.setting .item {
+    width: 70%;
+}
+.setting .content i{
+    color: #334d6e;
+    margin-right: 5px;
+} 
+.setting .content button:hover{
     color: #fca400;
 }
 .setting .content{
