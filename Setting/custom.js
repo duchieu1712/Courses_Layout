@@ -17,10 +17,10 @@ var custom_name = document.getElementById("custom-name");
 custom_name.style.display = "none";
 var username = document.getElementById("username");
 setting_name.addEventListener('click', function () {
-    isSet = !isSet;
-    isSet ? custom_name.style.display = "block" : custom_name.style.display = "none";
+    isSet1 = !isSet1;
+    isSet1 ? custom_name.style.display = "block" : custom_name.style.display = "none";
     console.log(isSet);
-    isSet ? username.style.display = "none" : username.style.display = "block";
+    isSet1 ? username.style.display = "none" : username.style.display = "block";
 });
 
 var isSet3 = false
