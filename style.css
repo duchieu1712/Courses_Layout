@@ -421,8 +421,14 @@ header .item_right .item3:hover i {
 /* FEEDBACK */
 #feedback {
     margin-top: 30px;
-    background: linear-gradient(to right, #fca400, #f1d091);
+    background: none;
     padding: 20px 0;
+    position: relative;
+}
+#feedback .content{
+    position: absolute;
+    top: 10%;
+    left: 8%;
 }
 #feedback .content h1 {
     text-align: center;
@@ -468,6 +474,30 @@ header .item_right .item3:hover i {
 #feedback .content .card .card-body {
     padding: 40px 1.25rem;
     padding-bottom: 60px;
+}
+#feedback .content .card .star{
+    margin-bottom: 10px;
+}
+#feedback .content .card .star i{
+    color: #f2c94c;
+    border: none;
+    padding: 0px;
+    background: none;
+}
+#feedback .bg_top img{
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+#feedback .bg_top{
+    max-width: auto;
+    height: 295px;
+    background: linear-gradient(to right, #fca400, #f1d091);  
+}
+#feedback .bg_bottom{
+    max-width: auto;
+    height: 295px;
+    background-color: white;
 }
 .owl-theme .owl-nav [class*=owl-]:hover{
     background: none;
