@@ -484,6 +484,25 @@ header .item_right .item3:hover i {
 }
 #corp .item img{
     margin: auto;
+    padding: 2px;
+    border: 1px solid #d8e9ff;
+    border-radius: 10px;
+}
+#corp .item {
+    border: none;
+    outline: none;
+}
+#corp .responsive i{
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    cursor: pointer;
+}
+#corp .responsive .fa-chevron-left{
+    left: 2%;
+}
+#corp .responsive .fa-chevron-right{
+    right: 2%;
 }
 @media screen and (max-width: 985px) {
     #corp .content p{
