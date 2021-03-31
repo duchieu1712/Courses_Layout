@@ -20,7 +20,10 @@ header .content {
 header .navbar-brand img {
     width: 100px;
 }
-
+header .fa-check-circle{
+    font-size: 15px;
+    margin-top: 4px;
+}
 header .item2 img{
     width: 25px;
 }
@@ -110,6 +113,7 @@ header .item_right .item3:hover i {
     header .item_right .item1 .nav-link {
       border-radius: 0;
       background-color: white;
+      font-size: 13px;
     }
     header .item_right .item1 .nav-link:hover {
       box-shadow: none;
@@ -123,6 +127,9 @@ header .item_right .item3:hover i {
     }
     header .item_right .item2 {
       background-color: white;
+    }
+    header .item_right .item2 .nav-link {
+        font-size: 13px;
     }
     header .item_right .item2:hover {
       background-color: white;
@@ -154,6 +161,12 @@ header .item_right .item3:hover i {
     .navbar-nav{
         margin: 0 auto;
         text-align: center;
+    }
+    header .fa-check-circle{
+        display: none;
+    }
+    header .nav-link img{
+        display: none;
     }
   }
 
@@ -439,12 +452,16 @@ header .item_right .item3:hover i {
         font-size: 36px;
     }
 }
+#feedback .student {
+    margin-left: 33px;
+}
 #feedback .content h5 {
     color: #334d6e;
     font-size: 16px;
 }
 #feedback .content h6 {
-    height: 40px;
+    height: 30px;
+    font-size: 13px;
 }
 #feedback .content {
     width: 85%;
@@ -530,8 +547,8 @@ header .item_right .item3:hover i {
     padding: 5px;
     border: 1px solid #d8e9ff;
     border-radius: 10px;
-    max-width: 250px;
-    min-height: 130px;
+    max-width: 260px;
+    height: 180px;
     display: flex;
     align-items: center;
 }
