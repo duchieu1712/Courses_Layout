@@ -16,8 +16,17 @@
 }
 #footer i {
   font-size: 2rem;
-  color: rebeccapurple;
+  color: #f2c94c;
 }
 #footer p {
   color: white;
+}
+#footer h6 {
+  color: #fca400;
+}
+#footer .fa-facebook {
+  color: #385898;
+}
+#footer .fa-youtube {
+  color: red;
 }
