@@ -159,20 +159,6 @@ header .item_right .item3:hover i {
     height: 500px;
     background-size: cover;
 }
-#carousel .content .text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-#carousel .content .text h1 {
-    font-size: 70px;
-}
-#carousel .content .text p {
-    font-size: 20px;
-}
 #carousel .carousel_bottom {
     min-height: 100px;
     box-shadow: 0 3px 6px #e2e2e2;
@@ -512,27 +498,36 @@ header .item_right .item3:hover i {
     font-weight: 500;
     color: #334d6e;
 }
-#corp .item img{
-    margin: auto;
-    padding: 2px;
-    border: 1px solid #d8e9ff;
-    border-radius: 10px;
-}
 #corp .item {
     border: none;
     outline: none;
+    display: flex;
+    justify-content: center;
+}
+#corp .item-logo{
+    padding: 5px;
+    border: 1px solid #d8e9ff;
+    border-radius: 10px;
+    max-width: 250px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+}
+#corp .item-logo img{
+    margin: auto;
 }
 #corp .responsive i{
     position: absolute;
-    top: 50%;
+    top: 40%;
     z-index: 1;
     cursor: pointer;
+    font-size: 22px;
 }
 #corp .responsive .fa-chevron-left{
-    left: 2%;
+    left: 1%;
 }
 #corp .responsive .fa-chevron-right{
-    right: 2%;
+    right: 1%;
 }
 @media screen and (max-width: 985px) {
     #corp .content p{
