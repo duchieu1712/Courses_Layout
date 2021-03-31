@@ -468,21 +468,30 @@ header .item_right .item3:hover i {
     font-weight: 500;
     color: #334d6e;
 }
-#corp .item img{
-    margin: auto;
-    padding: 2px;
-    border: 1px solid #d8e9ff;
-    border-radius: 10px;
-}
 #corp .item {
     border: none;
     outline: none;
+    display: flex;
+    justify-content: center;
+}
+#corp .item-logo{
+    padding: 5px;
+    border: 1px solid #d8e9ff;
+    border-radius: 10px;
+    max-width: 250px;
+    min-height: 130px;
+    display: flex;
+    align-items: center;
+}
+#corp .item-logo img{
+    margin: auto;
 }
 #corp .responsive i{
     position: absolute;
-    top: 50%;
+    top: 40%;
     z-index: 1;
     cursor: pointer;
+    font-size: 22px;
 }
 #corp .responsive .fa-chevron-left{
     left: 1%;
